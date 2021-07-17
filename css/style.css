@@ -227,7 +227,7 @@ img {
 }
 
 .info-content h2 {
-    font-size: 70px;
+    font-size: 50px;
     margin: 10px 0 35px;
 }
 
@@ -244,7 +244,7 @@ img {
 
 .slide .img img {
     height: 35rem;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 
@@ -491,6 +491,7 @@ footer ul li {
 
 .copyright-text {
     padding: 1rem;
+    text-align: center;
 }
 
 .copyright-text a {
@@ -498,25 +499,8 @@ footer ul li {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 996px) {
-  .section-contact {
-    padding: 8rem 8rem;
-  }
-}
 
-@media only screen and (max-width: 960px) {
-  .section-contact .row {
-    grid-template-columns: 1fr;
-    gap: 5rem 0;
-  }
 
-  .section-contact form div {
-    width: 100%;
-  }
-}
 
-@media only screen and (max-width: 567px) {
-  .section-contact {
-    padding: 8rem 1rem;
-  }
-}
+
+

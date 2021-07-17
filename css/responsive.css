@@ -12,7 +12,7 @@
     }
 } 
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1080px) {
     .mobile-menu {
         display: flex;
     }
@@ -129,9 +129,9 @@
 
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1079px) {
     .main-section {
-        margin-top: 30%;
+        margin-top: 25%;
     }
 
         .slide > .img > img {
@@ -140,9 +140,28 @@
     }
 }
 
+
+@media only screen and (max-width: 996px) {
+  .section-contact {
+    padding: 8rem 8rem;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .section-contact .row {
+    grid-template-columns: 1fr;
+    gap: 5rem 0;
+  }
+
+  .section-contact form div {
+    width: 100%;
+  }
+}
+
+
 @media only screen and (max-width: 768px) {
     .main-section {
-        margin-top: 40%;
+        margin-top: 32%;
     }
     
     .slide > .img > img {
@@ -178,11 +197,22 @@
     }
 }
 
+@media only screen and (max-width: 567px) {
+  .section-contact {
+    padding: 8rem 1rem;
+  }
+}
+
 
 @media only screen and (max-width: 425px) {
     .main-section {
-        margin-top: 45%;
+        margin-top: 65%;
     }
+
+    .info-content h2 {
+        font-size: 50px;
+    }
+
 
     .slide > .img > img {
         width: 300px;
@@ -201,13 +231,15 @@
 
 @media only screen and (max-width: 375px) {
     .main-section {
-        margin-top: 55%;
+        margin-top: 75%;
+        
     }
 
     .slide > .img > img {
         width: 300px;
         height: 300px;
     }
+
 
     .section-contact .col {
         padding-left: 1.5rem;
@@ -221,7 +253,11 @@
 
 @media only screen and (max-width: 320px) {
     .main-section {
-        margin-top: 80%;
+        margin-top: 75%;
+    }
+
+    .info-content h2 {
+        font-size: 35px;
     }
 
     .slide > .img > img {
