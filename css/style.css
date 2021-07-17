@@ -184,7 +184,7 @@ img {
     padding: 20px;
 }
 
-.section-main {
+.main-section {
     height: calc(
         100vh -
             (
@@ -192,19 +192,19 @@ img {
                     var(--bottom-header-size)
             )
     );
-    padding: 0 20px;
+
+    padding: 20px;
 }
 
 
 .slider,
 .slider .container {
-    margin-top: 20rem;
-    padding: 0 auto;
+    height: 100%;
     position: relative;
 }
 
 .slide {
-    height: 100%;
+    height: 0;
     position: absolute;
     display: flex;
     inset: 0;
@@ -212,7 +212,7 @@ img {
     visibility: hidden;
 }
 
-.slide.active {
+.active {
     visibility: visible;
     overflow: visible;
     height: 100%;
@@ -228,7 +228,7 @@ img {
 
 .info-content h2 {
     font-size: 70px;
-    margin: 10px 0 15px;
+    margin: 10px 0 35px;
 }
 
 .info-content button {
@@ -244,7 +244,7 @@ img {
 
 .slide .img img {
     height: 35rem;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 
@@ -271,11 +271,11 @@ img {
 }
 
 
+
+
+
 .payment {
-    padding: 30rem 1rem 5rem 1rem;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 8rem 1rem 0 1rem;
 
 }
 
@@ -297,16 +297,17 @@ img {
 }
 
 .payment-box .text h3 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .payment-box .text button {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .payment-box img {
     width: 150px;
-    height: 150px;
+    padding-right: 1rem;
+
     transition: transform 0.3s ease-in-out;
 }
 

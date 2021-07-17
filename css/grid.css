@@ -1,11 +1,8 @@
-body {
-        overflow-x: hidden;
-}
-
 .row {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
+    width: 100%;
 }
 
 
@@ -169,3 +166,6 @@ body {
         width: 100%;
     }
 }
+
+
+
