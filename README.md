@@ -5,6 +5,9 @@
   <span>Criar um sistema de e-commerce para cadastro de email na landing page para recebimento de novidades e promoções.</span>
 </p>
 
+<p align="center">
+  <img src="img/readme.jpeg" alt="">
+</p>
 
 
 
@@ -21,6 +24,4 @@
 
 - Salvando e-mail no Local Storage
 
-<p align="center">
-  <img src="img/readme.jpeg" alt="">
-</p>
+
