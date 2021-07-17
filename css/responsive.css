@@ -1,3 +1,17 @@
+@media only screen and (max-width: 2560px) {
+    .main-section {
+        margin-top: 1%;
+    }
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+    .main-section {
+        margin-top: 3%;
+    }
+} 
+
 @media only screen and (max-width: 1280px) {
     .mobile-menu {
         display: flex;
@@ -81,9 +95,6 @@
         flex-direction: column-reverse;
     }
 
-    .slide .img img {
-        padding-top: 25%;
-    }
 
     .slide .info{
         width: 100%;
@@ -116,6 +127,31 @@
 }
 
 
+
+
+@media only screen and (max-width: 1024px) {
+    .main-section {
+        margin-top: 30%;
+    }
+
+        .slide > .img > img {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-section {
+        margin-top: 40%;
+    }
+    
+    .slide > .img > img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
 @media only screen and (max-width: 750px) {
     .hero {
         height: calc(
@@ -126,6 +162,7 @@
                 )
         );
     }
+
 
     .info-content h2 {
         margin: unset;
@@ -138,5 +175,69 @@
 
     .payment-box {
         height: unset;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    .main-section {
+        margin-top: 45%;
+    }
+
+    .slide > .img > img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .section-contact .col {
+        padding-left: 1.5rem;
+    }
+
+    .section-contact form a{
+        padding: .8rem 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    .main-section {
+        margin-top: 55%;
+    }
+
+    .slide > .img > img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .section-contact .col {
+        padding-left: 1.5rem;
+    }
+
+    .section-contact form a{
+        padding: .8rem 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .main-section {
+        margin-top: 80%;
+    }
+
+    .slide > .img > img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .section-contact .col {
+        padding-left: 1.5rem;
+    }
+
+    .section-contact form a{
+        padding: .8rem 1.5rem;
+    }
+
+    .section-contact form input {
+        font-size: 14px;
     }
 }
