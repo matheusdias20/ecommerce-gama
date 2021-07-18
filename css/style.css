@@ -4,7 +4,7 @@
     --third-bg-color: #e3e3e3;
     --grey: #4b4b4b;
     --black: #000;
-    --red: #c0392b;
+    --green: #63dc3e;
     --top-header-size: 30px;
     --mid-header-size: 80px;
     --bottom-header-size: 45px;
@@ -86,7 +86,7 @@ img {
 }
 
 .logo span {
-    color: #63dc3e;
+    color: var(--green);
 }
 
 .mb-logo {
@@ -123,7 +123,7 @@ img {
 }
 
 .search i:hover {
-    color: #63dc3e;
+    color: var(--green);
 }
 
 .user-menu {
@@ -136,7 +136,7 @@ img {
 }
 
 .user-menu i:hover {
-    color: #63dc3e;
+    color: var(--green);
 }
 
 .user-menu > li > a {
@@ -170,7 +170,7 @@ img {
     display: block;
     width: 0;
     height: 2px;
-    background: #63dc3e;
+    background: var(--green);
     transition: width .3s;
 }
 
@@ -266,8 +266,8 @@ img {
 
 .btn-hover:hover {
     background-color: var(--btn-color);
-    color: #63dc3e;
-    border: 2px solid #63dc3e;
+    color: var(--green);
+    border: 2px solid var(--green);
 }
 
 
@@ -317,8 +317,8 @@ img {
 
 .payment .btn-hover:hover {
     background-color: var(--second-bg-color);
-    color: #63dc3e;
-    border: 2px solid #63dc3e;
+    color: var(--green);
+    border: 2px solid var(--green);
 }
 
 
@@ -389,7 +389,7 @@ img {
     margin-left: 5px;
     font-size: 20px;
     font-weight: 600;
-    color: #63dc3e;
+    color: var(--green);
 }
 
 .product-btn {
@@ -425,7 +425,7 @@ img {
 
 
 .section-contact {
-    background-color: #63dc3e;
+    background-color: var(--green);
     color: #FFF;
     padding: 2rem 10rem;
     margin-top: 5rem;
@@ -466,11 +466,17 @@ img {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #63dc3e;
+    background-color: var(--green);
     color: #fff;
     margin: 0.5rem;
     padding: .8rem 3rem;
     border-radius: 1rem;
+
+    transition: all ease-in-out .2s
+}
+
+.section-contact form a:hover {
+    background-color: #34b50b;
 }
 
 
@@ -495,7 +501,7 @@ footer ul li {
 }
 
 .copyright-text a {
-    color: #63dc3e;
+    color: var(--green);
     font-weight: bold;
 }
 
