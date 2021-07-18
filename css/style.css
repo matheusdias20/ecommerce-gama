@@ -186,7 +186,7 @@ img {
 
 .main-section {
     height: calc(
-        100vh -
+        110vh -
             (
                 var(--top-header-size) + var(--mid-header-size) +
                     var(--bottom-header-size)
@@ -487,6 +487,22 @@ footer {
 footer ul li {
     margin-bottom: 10px;
 }
+
+footer li a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--green);
+    transition: width .3s;
+}
+
+footer li a:hover:after {
+    width: 100%;
+    transition: width .3s;
+}
+
+
 
 .copyright-text {
     padding: 1rem;
