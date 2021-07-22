@@ -26,3 +26,6 @@ setInterval(() => {
     nextSlide()
     showSlide()
 }, 5000);
+
+
+

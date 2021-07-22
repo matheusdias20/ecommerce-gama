@@ -270,7 +270,9 @@ img {
     border: 2px solid var(--green);
 }
 
-
+.payment{
+    padding: 15px;
+}
 
 .payment [class*="col-"] {
     padding: 20px;
