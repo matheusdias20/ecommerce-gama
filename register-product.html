@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+        <!-- Boxicons -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/sign.css">
+        <link rel="stylesheet" href="css/responsive.css">
+
+        <!-- JS -->
+        <script src="js/localstorage-registerproduct.js"></script>
+
+        <title>GamaShop | Registrar Produto</title>
+        <link rel="shortcut icon" href="img/icon-gama.png" type="image/x-icon">
+    </head>
+    <body>
+        <div class="container">
+            <div class="forms-container">
+                <div class="signin-signup">
+                    <form action="index.html" class="sign-in-form">
+                        <h2 class="title">Cadastrar produto</h2>
+
+                        <div class="input-field">
+                            <i class='bx bxs-image'></i>
+                            <input required type="url" placeholder="Url do Produto" id="urlRegister">
+                        </div>
+
+                        <div class="input-field">
+                            <i class='bx bx-rename' ></i>
+                            <input required type="text" placeholder="Nome do Produto" id="nameRegister">
+                        </div>
+
+                        <div class="input-field">
+                            <i class='bx bx-money' ></i>
+                            <input required type="number" placeholder="Preço do Produto" id="priceRegister">
+                        </div>
+                        
+                        <div class="input-field">
+                            <i class='bx bxs-envelope'></i>
+                            <input required type="email" placeholder="E-mail" id="emailRegister">
+                        </div>
+
+
+                        <button type="submit" class="btn solid" id="btnRegister">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="panels-container">
+                <div class="panel left-panel">
+                    <div class="content">
+                        <h3>Ofereça seus produtos</h3> 
+                        <p>Anuncie seus itens, venda muito mais e conte com muitos benefícios! Aqui na GamaShop você vende muito com segurança em todos os momentos</p>
+                    </div>
+
+                    <img src="img/undraw_web_shopping_dd4l.svg" class="image" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- JS -->
+        <script src="js/register-product.js"></script>
+    </body>
+</html>
