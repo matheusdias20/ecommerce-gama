@@ -9,6 +9,19 @@
   <img src="img/readme.jpeg" alt="">
 </p>
 
+<p align="center">
+  <img src="img/login.jpeg" alt="">
+</p>
+
+<p align="center">
+  <img src="img/registre-se.jpeg" alt="">
+</p>
+
+<p align="center">
+  <img src="img/cadastrar-produto.jpeg" alt="">
+</p>
+
+
 
 
 ### 💻 Site 
@@ -22,6 +35,6 @@
 - CSS
 - JavaScript
 
-- Salvando e-mail no Local Storage
+- Dados sendo salvos no Local Storage
 
 
